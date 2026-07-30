@@ -1,0 +1,36 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# py2app / packaging
+build/
+dist/
+*.app
+
+# Compiled helper (rebuild with: make helper)
+ssdinfo/bin/nvme_health
+ssdinfo/bin/smc_thermal
+# Icon working files
+assets/AppIcon.iconset/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# Local exports / samples
+*.json
+!**/fixtures/**/*.json
+hardware-info.*
+ssd-info.*

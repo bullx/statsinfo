@@ -1,0 +1,5 @@
+# Build / packaging only (runtime needs no pip packages beyond the stdlib)
+py2app>=0.28
+setuptools>=68
+# Optional for menu bar mode in the built .app (and dev: pip3 install -r requirements-build.txt)
+pyobjc-framework-Cocoa>=10.0
